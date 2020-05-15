@@ -2,7 +2,7 @@
 const Discord = require("discord.js")
 const client = new Discord.Client()
 const bot = client
-bot.login("NzEwNjcyMjQzMzM5ODIxMTA2.Xr6Sxg.-TxmQFUq1_QTuYUhqFf0fw4j-aM");
+bot.login("replace-with-ur-bot-token");
 
 bot.on("ready", ()=>{
   console.log(client.user.id)
